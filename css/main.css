@@ -19,6 +19,7 @@ h1 {
 body {
   background-color: rgb(190, 188, 188);
 }
+/*Top container*/
 #top-container {
   width: 50%;
   margin: auto;
@@ -31,7 +32,7 @@ body {
   color: gray;
 }
 #task-color {
-  background-color: blue;
+  background-color: #007fff;
   color: white;
 }
 .button-square {
@@ -39,6 +40,7 @@ body {
   border-radius: 15%;
   padding: 8px 15px;
 }
+/*Container*/
 #container {
   width: 50%;
   margin: auto;
@@ -49,6 +51,11 @@ body {
 h2 {
   margin-bottom: 8px;
 }
+h2:before {
+  content: "\25BC";
+  font-size: 15px;
+  margin-right: 4px;
+}
 .button-round {
   border: 2px solid gray;
   border-radius: 40%;
@@ -57,4 +64,36 @@ h2 {
 }
 li {
   margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+}
+.positive {
+  color: green;
+  font-size: 15px;
+  margin: 10px;
+}
+.negative {
+  color: red;
+  font-size: 15px;
+  margin: 8px;
+}
+/*Button color in list*/
+.editorial-color {
+  background-color: #007fff;
+}
+#goals-color {
+  background-color: purple;
+}
+#recruiting-color {
+  background-color: green;
+}
+#mobile-color {
+  background-color: orange;
+}
+#website-color {
+  background-color: pink;
+}
+#sales-color {
+  background-color: greenyellow;
 }
